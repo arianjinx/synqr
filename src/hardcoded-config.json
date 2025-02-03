@@ -1,0 +1,41 @@
+{
+  "goals": [
+    "I want to be notified when new tech articles are published",
+    "I want to be notified when there are engineering blog posts about AI",
+    "I want to be notified when companies share their technical case studies"
+  ],
+  "sources": {
+    "rss": [
+      {
+        "url": "https://engineering.mercari.com/en/blog/feed.xml",
+        "name": "Mercari Engineering Blog",
+        "color": "0xFF6B6B"
+      },
+      {
+        "url": "https://medium.com/feed/henngeblog",
+        "name": "HENNGE Blog",
+        "color": "0x000000"
+      },
+      {
+        "url": "https://engineering.grab.com/feed.xml",
+        "name": "Grab Engineering Blog",
+        "color": "0x00B14F"
+      },
+      {
+        "url": "https://engineering.fb.com/feed/",
+        "name": "Meta Engineering Blog",
+        "color": "0x0866FF"
+      },
+      {
+        "url": "https://medium.com/feed/expedia-group-tech",
+        "name": "Expedia Group Tech Blog",
+        "color": "0x00A4DE"
+      }
+    ]
+  },
+  "outputs": {
+    "discord": {
+      "defaultColor": "0x7289DA"
+    }
+  }
+}
