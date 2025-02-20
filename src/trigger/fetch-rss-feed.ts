@@ -28,12 +28,12 @@ export const fetchRSSFeedTask = schedules.task({
           item => new Date(item.pubDate) > new Date(lastPubDate),
         )
       } else {
-        // If no last publication date, take only the latest 5 items from end
-        itemsToNotify = feed.items.slice(-5)
+        // If no last publication date, take only the latest 5 items
+        itemsToNotify = feed.items.slice(0, 5)
       }
 
       if (itemsToNotify.length > 0) {
-        // Store the latest publication date
+        // Store the latest publication date (items are already sorted newest first)
         const latestPubDate = feed.items[0]?.pubDate
         if (latestPubDate) {
           await redis.set(redisKey, latestPubDate)

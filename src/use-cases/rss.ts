@@ -14,10 +14,10 @@ export const fetchRSSFeed = async () => {
           rss.name,
         )
 
-        // Sort items by date in ascending order (latest first)
+        // Sort items by date in descending order (latest first)
         const sortedItems = [...items].sort(
           (a, b) =>
-            new Date(a.pubDate).getTime() - new Date(b.pubDate).getTime(),
+            new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime(),
         )
 
         results.push({
