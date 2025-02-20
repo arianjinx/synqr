@@ -7,14 +7,39 @@
   "sources": {
     "rss": [
       {
-        "url": "https://engineering.mercari.com/en/blog/feed.xml",
-        "name": "Mercari Engineering Blog",
-        "color": "0xFF6B6B"
+        "url": "https://engineering.fb.com/feed/",
+        "name": "Meta Engineering Blog",
+        "color": "0x0866FF"
       },
       {
-        "url": "https://medium.com/feed/henngeblog",
-        "name": "HENNGE Blog",
-        "color": "0x000000"
+        "url": "https://medium.com/feed/netflix-techblog",
+        "name": "Netflix Tech Blog",
+        "color": "0xE50914"
+      },
+      {
+        "url": "https://medium.com/feed/airbnb-engineering",
+        "name": "Airbnb Engineering Blog",
+        "color": "0xFF5A5F"
+      },
+      {
+        "url": "https://medium.com/feed/expedia-group-tech",
+        "name": "Expedia Group Tech Blog",
+        "color": "0x00A4DE"
+      },
+      {
+        "url": "https://medium.com/feed/gojekengineering",
+        "name": "Gojek Engineering Blog",
+        "color": "0x00AA13"
+      },
+      {
+        "url": "https://medium.com/feed/tokopedia-engineering",
+        "name": "Tokopedia Engineering Blog",
+        "color": "0x42B549"
+      },
+      {
+        "url": "https://medium.com/feed/traveloka-engineering",
+        "name": "Traveloka Engineering Blog",
+        "color": "0x008FE1"
       },
       {
         "url": "https://engineering.grab.com/feed.xml",
@@ -22,14 +47,39 @@
         "color": "0x00B14F"
       },
       {
-        "url": "https://engineering.fb.com/feed/",
-        "name": "Meta Engineering Blog",
-        "color": "0x0866FF"
+        "url": "https://blog.paypay.ne.jp/en/feed/",
+        "name": "PayPay Engineering Blog",
+        "color": "0xEB2B51"
       },
       {
-        "url": "https://medium.com/feed/expedia-group-tech",
-        "name": "Expedia Group Tech Blog",
-        "color": "0x00A4DE"
+        "url": "https://engineering.mercari.com/en/blog/feed.xml",
+        "name": "Mercari Engineering Blog",
+        "color": "0xFF6B6B"
+      },
+      {
+        "url": "https://medium.com/feed/henngeblog",
+        "name": "HENNGE Blog",
+        "color": "0x00A4B8"
+      },
+      {
+        "url": "https://medium.com/feed/smartnews-inc",
+        "name": "SmartNews Engineering Blog",
+        "color": "0xFFC027"
+      },
+      {
+        "url": "https://vercel.com/atom",
+        "name": "Vercel Blog",
+        "color": "0x000000"
+      },
+      {
+        "url": "https://nextjs.org/feed.xml",
+        "name": "Next.js Blog",
+        "color": "0x0070F3"
+      },
+      {
+        "url": "https://css-tricks.com/feed/",
+        "name": "CSS Tricks",
+        "color": "0xFF3366"
       }
     ]
   },
