@@ -1,5 +1,5 @@
-import {fetchRSSFeed} from '@/use-cases/rss'
+import { fetchRSSFeed } from "@/use-cases/rss";
 
-fetchRSSFeed().then(res => {
-  console.dir(res, {depth: 5})
-})
+fetchRSSFeed().then((res) => {
+  console.dir(res, { depth: 5 });
+});

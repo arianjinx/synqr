@@ -1,6 +1,6 @@
-import {sendDiscordNotification} from '@/use-cases/notification'
-import {schemaTask} from '@trigger.dev/sdk/v3'
-import {z} from 'zod'
+import { sendDiscordNotification } from "@/use-cases/notification";
+import { schemaTask } from "@trigger.dev/sdk/v3";
+import { z } from "zod";
 
 export const notificationSchema = z.object({
   title: z.string().optional(),
@@ -26,17 +26,17 @@ export const notificationSchema = z.object({
       }),
     )
     .optional(),
-})
+});
 
 export const sendNotificationTask = schemaTask({
-  id: 'send-notification',
+  id: "send-notification",
   maxDuration: 30, // 30 seconds
   schema: notificationSchema,
-  run: async notification => {
-    await sendDiscordNotification(notification)
+  run: async (notification) => {
+    await sendDiscordNotification(notification);
 
     return {
-      message: 'Notification sent',
-    }
+      message: "Notification sent",
+    };
   },
-})
+});
