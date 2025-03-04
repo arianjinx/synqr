@@ -7,6 +7,8 @@ what matters most in 2025's overwhelming information landscape. Instead of
 constantly checking multiple sources, SYNQR brings your important updates to you
 in a clean, organized way.
 
+<img src="screenshot.png" alt="SYNQR Screenshot" style="max-width: 300px; width: 100%;" />
+
 ## 🚀 Use Cases
 
 ### For K-Pop Fans
